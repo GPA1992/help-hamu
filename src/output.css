@@ -776,7 +776,7 @@ video {
   line-height: 1.5rem;
 }
 
-.text-lg {
+.md:text-lg cellphone:text-base {
   font-size: 1.125rem;
   line-height: 1.75rem;
 }
