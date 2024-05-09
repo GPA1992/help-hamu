@@ -615,10 +615,6 @@ video {
   height: 20rem;
 }
 
-.w-2\/4 {
-  width: 50%;
-}
-
 .w-28 {
   width: 7rem;
 }
@@ -767,18 +763,14 @@ video {
   text-align: justify;
 }
 
-.text-\[32px\] {
-  font-size: 32px;
+.text-8xl {
+  font-size: 6rem;
+  line-height: 1;
 }
 
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
-}
-
-.md:text-lg cellphone:text-base {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
 }
 
 .text-xl {
@@ -815,16 +807,42 @@ video {
 }
 
 @media (min-width: 50px) {
-  .cellphone\:h-28 {
-    height: 7rem;
+  .cellphone\:h-56 {
+    height: 14rem;
   }
 
-  .cellphone\:w-28 {
-    width: 7rem;
+  .cellphone\:w-56 {
+    width: 14rem;
+  }
+
+  .cellphone\:w-full {
+    width: 100%;
   }
 
   .cellphone\:flex-col {
     flex-direction: column;
+  }
+
+  .cellphone\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .cellphone\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .cellphone\:text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+
+  @media (min-width: 768px) {
+    .cellphone\:md\:text-lg {
+      font-size: 1.125rem;
+      line-height: 1.75rem;
+    }
   }
 }
 
@@ -833,11 +851,31 @@ video {
     height: 20rem;
   }
 
+  .md\:w-2\/4 {
+    width: 50%;
+  }
+
   .md\:w-80 {
     width: 20rem;
   }
 
   .md\:flex-row {
     flex-direction: row;
+  }
+
+  @media (min-width: 768px) {
+    .md\:md\:text-lg {
+      font-size: 1.125rem;
+      line-height: 1.75rem;
+    }
+  }
+
+  .md\:text-\[32px\] {
+    font-size: 32px;
+  }
+
+  .md\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
   }
 }
