@@ -1,0 +1,10 @@
+
+.title {
+    font-family: "Sedan SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.selected {
+    color: #69987C; 
+}
