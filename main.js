@@ -12,7 +12,7 @@
             event.preventDefault(); 
             
             const href = this.getAttribute('href'); 
-            const filename =`./components/${href.substring(1)}.html`; 
+            const filename =`./${href.substring(1)}.html`; 
 
             loadContent(filename); 
         });
