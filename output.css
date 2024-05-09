@@ -952,6 +952,10 @@ video {
 }
 
 @media (min-width: 50px) {
+  .cellphone\:mt-0 {
+    margin-top: 0px;
+  }
+
   .cellphone\:h-56 {
     height: 14rem;
   }
@@ -968,6 +972,14 @@ video {
     flex-direction: column;
   }
 
+  .cellphone\:p-2 {
+    padding: 0.5rem;
+  }
+
+  .cellphone\:p-3 {
+    padding: 0.75rem;
+  }
+
   .cellphone\:text-base {
     font-size: 1rem;
     line-height: 1.5rem;
@@ -980,6 +992,18 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:mt-2 {
+    margin-top: 0.5rem;
+  }
+
+  .md\:mt-3 {
+    margin-top: 0.75rem;
+  }
+
+  .md\:mt-4 {
+    margin-top: 1rem;
+  }
+
   .md\:h-80 {
     height: 20rem;
   }
@@ -992,8 +1016,20 @@ video {
     width: 20rem;
   }
 
+  .md\:w-3\/4 {
+    width: 75%;
+  }
+
   .md\:flex-row {
     flex-direction: row;
+  }
+
+  .md\:p-0 {
+    padding: 0px;
+  }
+
+  .md\:p-8 {
+    padding: 2rem;
   }
 
   .md\:text-\[32px\] {
